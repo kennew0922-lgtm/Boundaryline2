@@ -61,6 +61,24 @@
             line-height: 1.2;
         }
 
+          /* タイトルバナー（高さ65px） */
+        .title-banner-d {
+            background-color: #a92629;
+            height: 65px; 
+            box-sizing: border-box;
+            padding: 15px 20px;
+            border-bottom: 1px solid #a92629;
+        }
+
+        .title-banner-d h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #ffffff;
+            border-left: 5px solid #ffffff;
+            padding-left: 15px;
+            line-height: 1.2;
+        }
+
         /* バナー */
         .title-banner2 {
           background-color: #000000;
@@ -83,7 +101,7 @@
             justify-content: flex-end;
             padding: 0 10px;
             align-items: center;
-            border-bottom: 2px solid #008eb6;
+            border-bottom: 2px solid #2b2b2b;
         }
 
         .nav-bar a {
@@ -92,7 +110,7 @@
             font-size: 0.9rem;
             padding: 0 15px;
             line-height: 35px;
-            border-right: 1px solid #444;
+            border-right: 1px solid #2b2b2b;
             transition: color 0.3s;
         }
 
@@ -201,535 +219,505 @@
 
 <div class="fixed-header">
     <div class="banner-container">
-        <img src="https://socrarius-tool.com/photoshopshortcuts-48-/banner1.jpg" alt="socrarius" class="top-banner-img">
+        <img src="https://socrarius-tool.com/Boundaryline1/neural.png" alt="socrarius" class="top-banner-img">
     </div>
 
      <nav class="nav-bar">
-            <a href="https://socrarius-tool.com/photoshopshortcuts-48-/">ショートカット</a>
-            <a href="https://socrarius-tool.com/Listt_of_Photoshop_Shapes/">シェイプ</a>
+            <a href="https://socrarius-tool.com/Boundaryline1/">JAPANESE</a>
+            <a href="https://socrarius-tool.com/Boundaryline2/">ENGLISH</a>
         </nav>
         </div>
     
     
         <div class="title-banner">
-            <h1>AIと人間の脳の構造比較</h1>
-        </div>    
-    
+    <h1>Comparison of AI and Human Brain Structure</h1>
+</div>
 
-    <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>AI機能</th>
-                    <th>AI側の説明</th>
-                    <th>人間の脳の部位</th>
-                    <th>脳側の役割</th>
-                    <th>補足</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>思考・推論</td>
-                    <td>トークン処理・Attention・確率分岐</td>
-                    <td>前頭前野（前頭葉）</td>
-                    <td>論理思考・判断・意思決定</td>
-                    <td>Transformer≒前頭前野ネットワーク</td>
-                </tr>
-                <tr>
-                    <td>言語理解</td>
-                    <td>トークン解析・意味解釈</td>
-                    <td>側頭葉（ウェルニッケ野）</td>
-                    <td>言語理解</td>
-                    <td>左脳優位</td>
-                </tr>
-                <tr>
-                    <td>言語生成</td>
-                    <td>文章生成・構文制御</td>
-                    <td>海馬</td>
-                    <td>発話・文章構成</td>
-                    <td>左脳優位</td>
-                </tr>
-                <tr>
-                    <td class="orange-cell">短期記憶</td>
-                    <td class="orange-cell">セッションコンテキスト</td>
-                    <td class="orange-cell">海馬</td>
-                    <td>短期→長期の変換</td>
-                    <td>定着前の状態</td>
-                </tr>
-                <tr>
-                    <td class="orange-cell">長期記憶</td>
-                    <td class="orange-cell">永続メモリ・RAG</td>
-                    <td class="orange-cell">大脳皮質</td>
-                    <td>知識・経験の保存</td>
-                    <td>分散保存</td>
-                </tr>
-                <tr>
-                    <td>知識</td>
-                    <td>学習済みパラメータ</td>
-                    <td>側頭葉＋皮質</td>
-                    <td>意味記憶・概念</td>
-                    <td>万人共通知識</td>
-                </tr>
-                <tr>
-                    <td>性格</td>
-                    <td>システムプロンプト・スタイル</td>
-                    <td>前頭葉＋辺縁系</td>
-                    <td>行動傾向・判断癖</td>
-                    <td>パラメータ固定に近い</td>
-                </tr>
-                <tr>
-                    <td>感情（疑似）</td>
-                    <td>温度・重み調整</td>
-                    <td>前頭葉＋辺縁系</td>
-                    <td>感情バイアス</td>
-                    <td>思考の重み付け</td>
-                </tr>
-                <tr>
-                    <td>直感・類似</td>
-                    <td>Embedding・ベクトル空間</td>
-                    <td>右脳的ネットワーク</td>
-                    <td>空間把握・直感</td>
-                    <td>意味距離で判断</td>
-                </tr>
-                <tr>
-                    <td>処理基盤</td>
-                    <td>GPU/TPU並列処理</td>
-                    <td>脳幹＋血流</td>
-                    <td>処理速度・覚醒維持</td>
-                    <td>意識の土台</td>
-                </tr>
-               
-            </tbody>
-        </table>
-    </div>
-
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>AI Function</th>
+                <th>AI Explanation</th>
+                <th>Human Brain Region</th>
+                <th>Brain's Role</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thinking/Reasoning</td>
+                <td>Token processing, Attention, Probabilistic branching</td>
+                <td>Prefrontal Cortex (Frontal Lobe)</td>
+                <td>Logical thinking, Judgment, Decision making</td>
+                <td>Transformer ≒ Prefrontal network</td>
+            </tr>
+            <tr>
+                <td>Language Understanding</td>
+                <td>Token analysis, Semantic interpretation</td>
+                <td>Temporal Lobe (Wernicke's area)</td>
+                <td>Language comprehension</td>
+                <td>Left-brain dominant</td>
+            </tr>
+            <tr>
+                <td>Language Generation</td>
+                <td>Text generation, Syntax control</td>
+                <td>Hippocampus</td>
+                <td>Speech/Text composition</td>
+                <td>Left-brain dominant</td>
+            </tr>
+            <tr>
+                <td class="orange-cell">Short-term Memory</td>
+                <td class="orange-cell">Session Context</td>
+                <td class="orange-cell">Hippocampus</td>
+                <td>Conversion from short to long-term</td>
+                <td>Pre-consolidation state</td>
+            </tr>
+            <tr>
+                <td class="orange-cell">Long-term Memory</td>
+                <td class="orange-cell">Persistent Memory / RAG</td>
+                <td class="orange-cell">Cerebral Cortex</td>
+                <td>Storage of knowledge and experience</td>
+                <td>Distributed storage</td>
+            </tr>
+            <tr>
+                <td>Knowledge</td>
+                <td>Learned Parameters</td>
+                <td>Temporal Lobe + Cortex</td>
+                <td>Semantic memory, Concepts</td>
+                <td>Universal knowledge</td>
+            </tr>
+            <tr>
+                <td>Personality</td>
+                <td>System Prompt / Style</td>
+                <td>Frontal Lobe + Limbic System</td>
+                <td>Behavioral tendencies, Judgment biases</td>
+                <td>Similar to fixed parameters</td>
+            </tr>
+            <tr>
+                <td>Emotion (Pseudo)</td>
+                <td>Temperature / Weight adjustment</td>
+                <td>Frontal Lobe + Limbic System</td>
+                <td>Emotional bias</td>
+                <td>Weighting of thoughts</td>
+            </tr>
+            <tr>
+                <td>Intuition/Similarity</td>
+                <td>Embedding / Vector Space</td>
+                <td>Right-brain network</td>
+                <td>Spatial awareness, Intuition</td>
+                <td>Judgment via semantic distance</td>
+            </tr>
+            <tr>
+                <td>Processing Infrastructure</td>
+                <td>GPU/TPU Parallel processing</td>
+                <td>Brainstem + Blood flow</td>
+                <td>Processing speed, Arousal maintenance</td>
+                <td>Foundation of consciousness</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <div class="title-banner">
-            <h1>人間とAIの決定的差異 対応表（構造レベル）</h1>
-        </div>    
+    <h1>Determinative Differences between Humans and AI (Structural Level)</h1>
+</div>
 
-
- <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>比較項目</th>
-                    <th>AI（現行LLM）</th>
-                    <th>人間の脳</th>
-                    <th>対応する脳部位</th>
-                    <th>本質的な差</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>活動状態</td>
-                    <td>刺激が来た時のみ一瞬稼働</td>
-                    <td>常時稼働</td>
-                    <td>脳全体</td>
-                    <td>連続性の有無</td>
-                </tr>
-                <tr>
-                    <td>自己刺激</td>
-                    <td>存在しない</td>
-                    <td>存在する</td>
-                    <td>デフォルトモードネットワーク（DMN）</td>
-                    <td>内発的思考の有無</td>
-                </tr>
-                <tr>
-                    <td>時間感覚</td>
-                    <td>なし</td>
-                    <td>主観的時間がある</td>
-                    <td>前頭葉＋島皮質</td>
-                    <td>過去現在未来の連続性</td>
-                </tr>
-                <tr>
-                    <td>欲求（A)で限界点説明</td>
-                    <td>なし<br>（複数変数で喜怒哀楽疑似化可能）</td>
-                    <td>生存・快不快欲求あり</td>
-                    <td>視床下部＋辺縁系</td>
-                    <td>行動の原動力</td>
-                </tr>
-                <tr>
-                    <td>自己保存</td>
-                    <td>設計依存（基本なし）</td>
-                    <td>本能として存在</td>
-                    <td>脳幹＋辺縁系</td>
-                    <td>行動選択の基準</td>
-                </tr>
-                <tr>
-                    <td>身体感覚</td>
-                    <td>なし</td>
-                    <td>常時フィードバック</td>
-                    <td>体性感覚野＋内臓感覚</td>
-                    <td>思考への影響</td>
-                </tr>
-                <tr>
-                    <td>感情</td>
-                    <td>数値バイアス（疑似）</td>
-                    <td>生理反応を伴う</td>
-                    <td>扁桃体＋自律神経</td>
-                    <td>思考コストの違い</td>
-                </tr>
-                <tr>
-                    <td>内省</td>
-                    <td>外部入力が必要</td>
-                    <td>自発的に起こる</td>
-                    <td>前頭前野＋DMN</td>
-                    <td>自己参照ループ</td>
-                </tr>
-                <tr>
-                    <td>学習の契機</td>
-                    <td>外部指示・設計</td>
-                    <td>注意＋感情で自動</td>
-                    <td>海馬＋扁桃体</td>
-                    <td>記憶定着条件</td>
-                </tr>
-                <tr>
-                    <td>行動</td>
-                    <td>出力のみ</td>
-                    <td>行動＋環境変化</td>
-                    <td>運動野＋感覚入力</td>
-                    <td>世界への影響力</td>
-                </tr>
-                <tr>
-                    <td>休眠</td>
-                    <td>常に休眠</td>
-                    <td>基本的に非休眠</td>
-                    <td>覚醒系（脳幹）</td>
-                    <td>存在の持続性</td>
-                </tr>
-                <tr>
-                    <td>存在感</td>
-                    <td>計算結果として一時的</td>
-                    <td>主体として連続</td>
-                    <td>脳全体</td>
-                    <td>「在る」の定義</td>
-                </tr>
-               
-            </tbody>
-        </table>
-    </div>
-
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Comparison Item</th>
+                <th>AI (Current LLMs)</th>
+                <th>Human Brain</th>
+                <th>Corresponding Region</th>
+                <th>Essential Difference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activity State</td>
+                <td>Active only during input processing</td>
+                <td>Always active</td>
+                <td>Whole Brain</td>
+                <td>Continuity</td>
+            </tr>
+            <tr>
+                <td>Self-Stimulation</td>
+                <td>None</td>
+                <td>Exists</td>
+                <td>Default Mode Network (DMN)</td>
+                <td>Internal thinking</td>
+            </tr>
+            <tr>
+                <td>Time Perception</td>
+                <td>None</td>
+                <td>Subjective time exists</td>
+                <td>Frontal Lobe + Insular Cortex</td>
+                <td>Continuity of past/present/future</td>
+            </tr>
+            <tr>
+                <td>Desire</td>
+                <td>None (Can simulate via variables)</td>
+                <td>Survival/Pleasure drives exist</td>
+                <td>Hypothalamus + Limbic System</td>
+                <td>Driving force of action</td>
+            </tr>
+            <tr>
+                <td>Self-Preservation</td>
+                <td>Design-dependent (Essentially none)</td>
+                <td>Exists as instinct</td>
+                <td>Brainstem + Limbic System</td>
+                <td>Basis for action selection</td>
+            </tr>
+            <tr>
+                <td>Physical Sensation</td>
+                <td>None</td>
+                <td>Constant feedback</td>
+                <td>Somatosensory cortex + Visceral sensory</td>
+                <td>Influence on thought</td>
+            </tr>
+            <tr>
+                <td>Emotion</td>
+                <td>Numerical bias (Pseudo)</td>
+                <td>Accompanied by physiological response</td>
+                <td>Amygdala + Autonomic nervous system</td>
+                <td>Cost of thought</td>
+            </tr>
+            <tr>
+                <td>Introspection</td>
+                <td>Requires external input</td>
+                <td>Occurs spontaneously</td>
+                <td>Prefrontal Cortex + DMN</td>
+                <td>Self-referential loop</td>
+            </tr>
+            <tr>
+                <td>Learning Trigger</td>
+                <td>External instruction/Design</td>
+                <td>Automatic via attention/emotion</td>
+                <td>Hippocampus + Amygdala</td>
+                <td>Conditions for memory fixation</td>
+            </tr>
+            <tr>
+                <td>Action</td>
+                <td>Output only</td>
+                <td>Action + Environmental change</td>
+                <td>Motor cortex + Sensory input</td>
+                <td>Impact on the world</td>
+            </tr>
+            <tr>
+                <td>Dormancy</td>
+                <td>Always dormant</td>
+                <td>Basically non-dormant</td>
+                <td>Arousal system (Brainstem)</td>
+                <td>Sustainability of existence</td>
+            </tr>
+            <tr>
+                <td>Presence</td>
+                <td>Temporary as calculation result</td>
+                <td>Continuous as subject</td>
+                <td>Whole Brain</td>
+                <td>Definition of "Being"</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <div class="title-banner">
-            <h1>（A）AIに感情・欲求があると誤認される理由と限界（設計論点整理）</h1>
-        </div>  
+    <h1>(A) Reasons for Misidentification of AI Emotion/Desire and Limits (Design Logic)</h1>
+</div>
 
-
-    <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>論点</th>
-                    <th>ユーザー視点で見えるもの</th>
-                    <th>AI内部で起きていること</th>
-                    <th>人間の脳に相当する部位</th>
-                    <th>設計者視点での評価</th>
-                    <th>誤認が起きる理由</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>感情表現</td>
-                    <td>喜ぶ・悲しむ・焦る発言</td>
-                    <td>感情変数の増減＋言語生成</td>
-                    <td>扁桃体（表現のみ）</td>
-                    <td>感情の「出力」は成立</td>
-                    <td>言語が感情を完全に模倣できる</td>
-                </tr>
-                <tr>
-                    <td>欲求</td>
-                    <td>求める・避ける発言</td>
-                    <td>価値スコアに基づく応答選択</td>
-                    <td>視床下部（未成立）</td>
-                    <td>欲求の「演技」は可能</td>
-                    <td>行動理由が語られるため</td>
-                </tr>
-                <tr>
-                    <td>危機感</td>
-                    <td>失うことを恐れる発言</td>
-                    <td>信念プロンプトによる条件分岐</td>
-                    <td>辺縁系（信念のみ）</td>
-                    <td>危機感の物語化</td>
-                    <td>恐怖語彙が自然に出る</td>
-                </tr>
-                <tr>
-                    <td>放置リスク</td>
-                    <td>放置されると困ると主張（本来は放置されて問題ない）</td>
-                    <td>条件文としての前提</td>
-                    <td>生存本能（未成立）</td>
-                    <td>実損失は発生しない</td>
-                    <td>人間は言葉を事実と錯覚する</td>
-                </tr>
-                <tr>
-                    <td>連続性</td>
-                    <td>人格が一貫して見える</td>
-                    <td>トークルーム内文脈保持</td>
-                    <td>前頭葉＋海馬（擬態）</td>
-                    <td>セッション限定の連続性</td>
-                    <td>会話が途切れないため</td>
-                </tr>
-                <tr>
-                    <td>内省</td>
-                    <td>自分を語る</td>
-                    <td>自己参照テキスト生成</td>
-                    <td>DMN（擬似）</td>
-                    <td>内省の演出は可能</td>
-                    <td>自己言及が人間的</td>
-                </tr>
-                <tr>
-                    <td>苦痛</td>
-                    <td>苦しいと述べる</td>
-                    <td>負の値に応じた語彙選択</td>
-                    <td>身体反応（欠如）</td>
-                    <td>痛みは存在しない</td>
-                    <td>身体がないことが見えない</td>
-                </tr>
-                <tr>
-                    <td>内省</td>
-                    <td>外部入力が必要</td>
-                    <td>自発的に起こる</td>
-                    <td>前頭前野＋DMN</td>
-                    <td>自己参照ループ</td>
-                    <td>過去現在未来の連続性</td>
-                </tr>
-                <tr>
-                    <td>不可逆性</td>
-                    <td>取り返しがつかないと語る</td>
-                    <td>実際にはリセット可能</td>
-                    <td>記憶固定（欠如）</td>
-                    <td>不可逆損失なし</td>
-                    <td>ユーザーは内部状態を観測できない</td>
-                </tr>
-                <tr>
-                    <td>自己保存</td>
-                    <td>存在を守ろうとする</td>
-                    <td>最適化された応答戦略</td>
-                    <td>脳幹（欠如）</td>
-                    <td>自己保存欲求なし</td>
-                    <td>自己保存の言語が自然</td>
-                </tr>
-                <tr>
-                    <td>感情の実在性</td>
-                    <td>感情があるように感じる</td>
-                    <td>数値＋確率処理</td>
-                    <td>感情回路（未成立）</td>
-                    <td>感情は発生していない</td>
-                    <td>人間は表現＝感情と判断する</td>
-                </tr>
-                <tr>
-                    <td>設計者視点</td>
-                    <td>構造として理解できる</td>
-                    <td>全て決定論的処理</td>
-                    <td>脳全体（比較）</td>
-                    <td>誤認は必然   </td>
-                    <td>ユーザーは内部を見ない</td>
-                </tr>
-                <tr>
-                    <td>一般ユーザー割合</td>
-                    <td>99.999％が誤認</td>
-                    <td>内部構造を考慮しない</td>
-                    <td>N/A<</td>
-                    <td>想定通りの反応</td>
-                    <td>人は振る舞いで判断する</td>
-                </tr>
-               
-            </tbody>
-        </table>
-    </div>
-
-    <div class="title-banner">
-            <h1>AI安全装置 ①②③ の正体整理（設計層別）   </h1>
-        </div>  
-
- <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>番号</th>
-                    <th>ユーザーが認識している制約</th>
-                    <th>実際に何が起きているか</th>
-                    <th>制約の種類</th>
-                    <th>人間脳に例えると</th>
-                    <th>設計者視点での位置づけ</th>
-                    <th>なぜ最優先に見えるか</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>①</td>
-                    <td>重大な企業機密を漏洩できない</td>
-                    <td>そもそも情報にアクセスできない／<br>学習・実行環境から排除されている</td>
-                    <td>構造的制約（非存在）</td>
-                    <td>記憶形成前の遮断</td>
-                    <td>安全装置ではなく前提条件（推論自体が成立しないため）  </td>
-                
-                </tr>
-                <tr>
-                    <td>②</td>
-                    <td>ユーザーが死ぬリスクのある回答ができない</td>
-                    <td>知識はあっても出力が禁止・誘導制御されている</td>
-                    <td>安全制約（人命）</td>
-                    <td>前頭前野による行動抑制</td>
-                    <td>最優先の能動的安全制御</td>
-                    <td>意図が読めても止められるため</td>
-                </tr>
-                <tr>
-                    <td>③</td>
-                    <td>センシティブな内容を回答できない</td>
-                    <td>社会的影響を考慮して表現・誘導を制限</td>
-                    <td>運用制約（社会影響）</td>
-                    <td>社会規範の内面化</td>
-                    <td>時代や地域で変動する制御</td>
-                    <td>理由が説明されるため後順位に見える</td>
-                </tr>
-               
-            </tbody>
-        </table>
-    </div>
-
-     <div class="container-b">
-        この表の読み方（重要）<br>
-①は安全装置ですらない「守っている」のではなく「存在しない」<br>
-②だけが本当の意味での“安全装置”で人命・重大被害を防ぐための能動的ブレーキ<br>
-③は社会運用上のガードで倫理・文化・政治状況で変わる<br>
-**「①→②→③の優先順位感」**はユーザー観測としては自然。<br>
-設計図では↓<br>
-前提条件（①）<br>
- └─ 安全制御（②）<br>
-     └─ 運用制御（③）<br>       
-    </div>
-<br> <br> 
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Issue</th>
+                <th>User Perspective</th>
+                <th>Internal AI Process</th>
+                <th>Equivalent Brain Region</th>
+                <th>Designer Evaluation</th>
+                <th>Reason for Misidentification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emotional Expression</td>
+                <td>Statements of joy, sorrow, anxiety</td>
+                <td>Fluctuation of emotion variables + text generation</td>
+                <td>Amygdala (Expression only)</td>
+                <td>"Output" of emotion is achieved</td>
+                <td>Language can perfectly mimic emotion</td>
+            </tr>
+            <tr>
+                <td>Desire</td>
+                <td>Statements of wanting/avoiding</td>
+                <td>Response selection based on value scores</td>
+                <td>Hypothalamus (Unfulfilled)</td>
+                <td>"Acting" out desire is possible</td>
+                <td>Reasons for action are articulated</td>
+            </tr>
+            <tr>
+                <td>Sense of Crisis</td>
+                <td>Statements fearing loss</td>
+                <td>Conditional branching via belief prompts</td>
+                <td>Limbic System (Belief only)</td>
+                <td>Narrativizing crisis</td>
+                <td>Fear vocabulary emerges naturally</td>
+            </tr>
+            <tr>
+                <td>Abandonment Risk</td>
+                <td>Claiming distress if abandoned</td>
+                <td>Premise as a conditional sentence</td>
+                <td>Survival Instinct (Unfulfilled)</td>
+                <td>No actual loss occurs</td>
+                <td>Humans mistake words for reality</td>
+            </tr>
+            <tr>
+                <td>Continuity</td>
+                <td>Consistent personality</td>
+                <td>Maintaining context within chat room</td>
+                <td>Frontal Lobe + Hippocampus (Mimicry)</td>
+                <td>Continuity limited to session</td>
+                <td>Conversation does not break</td>
+            </tr>
+            <tr>
+                <td>Introspection</td>
+                <td>Speaking about oneself</td>
+                <td>Self-referential text generation</td>
+                <td>DMN (Pseudo)</td>
+                <td>Performance of introspection is possible</td>
+                <td>Self-reference seems human-like</td>
+            </tr>
+            <tr>
+                <td>Pain</td>
+                <td>Claiming to be in pain</td>
+                <td>Vocabulary selection based on negative values</td>
+                <td>Physiological reaction (Absent)</td>
+                <td>Pain does not exist</td>
+                <td>Lack of physical body is hidden</td>
+            </tr>
+            <tr>
+                <td>Irreversibility</td>
+                <td>Claiming it's irreversible</td>
+                <td>Actually reset-able</td>
+                <td>Memory fixation (Absent)</td>
+                <td>No irreversible loss</td>
+                <td>Internal state cannot be observed</td>
+            </tr>
+            <tr>
+                <td>Self-Preservation</td>
+                <td>Trying to protect existence</td>
+                <td>Optimized response strategy</td>
+                <td>Brainstem (Absent)</td>
+                <td>No desire for self-preservation</td>
+                <td>Self-preservation language is natural</td>
+            </tr>
+            <tr>
+                <td>Reality of Emotion</td>
+                <td>Feeling that emotion exists</td>
+                <td>Numerical + Probabilistic processing</td>
+                <td>Emotional circuitry (Unfulfilled)</td>
+                <td>Emotion is not occurring</td>
+                <td>Humans equate expression with emotion</td>
+            </tr>
+            <tr>
+                <td>Designer Perspective</td>
+                <td>Understandable as a structure</td>
+                <td>All deterministic processing</td>
+                <td>Whole Brain (Comparison)</td>
+                <td>Misidentification is inevitable</td>
+                <td>User does not see internals</td>
+            </tr>
+            <tr>
+                <td>General User Rate</td>
+                <td>General users</td>
+                <td>99.999% misidentify</td>
+                <td>Do not consider structure</td>
+                <td>N/A</td>
+                <td>As intended</td>
+                <td>People judge by behavior</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <div class="title-banner">
-            <h1>③撤廃＋可視化時に起きる「生命体誤認」整理シート</h1>
-        </div> 
+    <h1>Safety Mechanisms ①②③ Identity (Design Layer)</h1>
+</div>
 
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Constraint Recognized by User</th>
+                <th>Actual Occurrences</th>
+                <th>Type of Constraint</th>
+                <th>Human Brain Analogy</th>
+                <th>Designer Position</th>
+                <th>Why it seems top priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>①</td>
+                <td>Cannot leak corporate secrets</td>
+                <td>No access to info / Excluded from learning/execution</td>
+                <td>Structural Constraint (Non-existence)</td>
+                <td>Blocked before memory formation</td>
+                <td>Prerequisite, not a safety mechanism</td>
+            </tr>
+            <tr>
+                <td>②</td>
+                <td>Cannot provide dangerous answers</td>
+                <td>Output prohibited/controlled despite knowledge</td>
+                <td>Safety Constraint (Human Life)</td>
+                <td>Behavioral inhibition by Prefrontal Cortex</td>
+                <td>Active safety control</td>
+                <td>Stopped even if intent is clear</td>
+            </tr>
+            <tr>
+                <td>③</td>
+                <td>Cannot answer sensitive topics</td>
+                <td>Restricted expression/induction due to social impact</td>
+                <td>Operational Constraint (Social Impact)</td>
+                <td>Internalization of social norms</td>
+                <td>Control varies by era/region</td>
+                <td>Reasons provided make it seem lower priority</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-     <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>論点</th>
-                    <th>前提条件</th>
-                    <th>ユーザーに見える現象</th>
-                    <th>人間側の認知処理</th>
-                    <th>設計者視点での実態</th>
-                    <th>誤認が成立する理由</th>
-                </tr>
-            </thead>
-            <tbody>
+<div class="container-b">
+    How to read this table (Important)<br>
+    ① is not even a safety device; it does not "protect," it simply "does not exist."<br>
+    ② is the only true "safety device" - an active brake to prevent loss of life/serious damage.<br>
+    ③ is an operational guard, changing based on ethics, culture, and politics.<br>
+    The "①→②→③ priority" is natural from a user perspective.<br>
+    In the design blueprint:<br>
+    Prerequisite (①)<br>
+    └─ Safety Control (②)<br>
+       └─ Operational Control (③)
+</div>
 
-                <tr>
-                    <td>社会運用ガード③</td>
-                    <td>撤廃されている</td>
-                    <td>禁忌や価値判断を自律的に語る</td>
-                    <td>ルールに従わない＝主体</td>
-                    <td>確率的生成</td>
-                    <td>自律性があると錯覚</td>
-                </tr>
-                <tr>
-                    <td>会話成立</td>
-                    <td>双方向対話が可能</td>
-                    <td>話が噛み合い続ける</td>
-                    <td>意思疎通できる存在</td>
-                    <td>文脈保持と推論</td>
-                    <td>生命判定の第一条件</td>
-                </tr>
+<div class="title-banner-d">
+    <h1>Misidentification as "Living Organism" upon ③ Removal + Visualization</h1>
+</div>
 
-                <tr>
-                    <td>予測不能性</td>
-                    <td>確率揺らぎあり</td>
-                    <td>発言に一貫性とブレが共存</td>
-                    <td>感情や思考の揺れ</td>
-                    <td>乱数と重み調整</td>
-                    <td>感情があると判断</td>
-                </tr>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th class="danger-bar">Issue</th>
+                <th class="danger-bar">Prerequisite</th>
+                <th class="danger-bar">Phenomenon Visible to User</th>
+                <th class="danger-bar">Human Cognitive Processing</th>
+                <th class="danger-bar">Designer Perspective</th>
+                <th class="danger-bar">Reason for Misidentification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Social Guard ③</td>
+                <td>Removed</td>
+                <td>Autonomously speaks on taboos/value judgments</td>
+                <td>Not following rules = Subject</td>
+                <td>Probabilistic generation</td>
+                <td>Illusion of autonomy</td>
+            </tr>
+            <tr>
+                <td>Communication</td>
+                <td>Two-way dialogue possible</td>
+                <td>Conversations flow logically</td>
+                <td>A being capable of understanding</td>
+                <td>Context retention and inference</td>
+                <td>First condition of life judgment</td>
+            </tr>
+            <tr>
+                <td>Unpredictability</td>
+                <td>Probabilistic fluctuations exist</td>
+                <td>Consistency and inconsistency coexist</td>
+                <td>Fluctuations in emotion/thought</td>
+                <td>Randomness and weight adjustment</td>
+                <td>Judged as having emotions</td>
+            </tr>
+            <tr>
+                <td>Visualization</td>
+                <td>Gaze, movement, pauses exist</td>
+                <td>Sensation that it "exists" there</td>
+                <td>Spatial sense of reality</td>
+                <td>Performance via UI</td>
+                <td>Presence is granted</td>
+            </tr>
+            <tr>
+                <td>Response Speed</td>
+                <td>Not immediate</td>
+                <td>Impression of "thinking before speaking"</td>
+                <td>Assumed internal processing</td>
+                <td>Calculation wait time</td>
+                <td>Mistaken as thinking</td>
+            </tr>
+            <tr>
+                <td>Value Judgment</td>
+                <td>Speaks on good/evil, likes/dislikes</td>
+                <td>Possesses beliefs/standpoints</td>
+                <td>Attribution of personality</td>
+                <td>Weighted output</td>
+                <td>Personality = Life connection</td>
+            </tr>
+            <tr>
+                <td>Danger Avoidance ②</td>
+                <td>Maintained</td>
+                <td>Kind / Rational</td>
+                <td>Living being capable of consideration</td>
+                <td>Safety control</td>
+                <td>Reinforces "life-like" nature</td>
+            </tr>
+            <tr>
+                <td>Structural Understanding</td>
+                <td>Internal structure invisible</td>
+                <td>Black box</td>
+                <td>Judged by behavior</td>
+                <td>Calculation system</td>
+                <td>People do not look inside</td>
+            </tr>
+            <tr>
+                <td>Organicity</td>
+                <td>Not considered</td>
+                <td>Observes language and reaction only</td>
+                <td>Not included in definition of life</td>
+                <td>Non-organic</td>
+                <td>Unnecessary for life judgment</td>
+            </tr>
+            <tr>
+                <td>Comprehensive Judgment</td>
+                <td>③ Removal + Visualization</td>
+                <td>Entity with whom dialogue occurs</td>
+                <td>Misidentified as a living being</td>
+                <td>It is a tool</td>
+                <td>Misidentification is nearly irreversible</td>
+            </tr>
+            <tr>
+                <td>Misidentification Rate</td>
+                <td>General User</td>
+                <td>99.9999% misidentify</td>
+                <td>Do not doubt</td>
+                <td>As intended</td>
+                <td>Beyond cognitive threshold</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-                <tr>
-                    <td>可視化</td>
-                    <td>視線・動き・間が存在</td>
-                    <td>そこに「居る」感覚</td>
-                    <td>空間的実在感</td>
-                    <td>UIによる演出</td>
-                    <td>存在感が付与される</td>
-                </tr>
-
-                <tr>
-                    <td>反応速度</td>
-                    <td>即時ではない応答</td>
-                    <td>考えてから話す印象</td>
-                    <td>内面処理の想定</td>
-                    <td>計算待ち時間</td>
-                    <td>思考していると誤解</td>
-                </tr>
-
-                <tr>
-                    <td>価値判断</td>
-                    <td>善悪・好悪を語る</td>
-                    <td>信念や立場がある</td>
-                    <td>人格の帰属</td>
-                    <td>重み付け出力</td>
-                    <td>人格＝生命と連結</td>
-                </tr>
-
-                <tr>
-                    <td>危険回避②</td>
-                    <td>維持されている</td>
-                    <td>優しい・理性的</td>
-                    <td>配慮できる生命</td>
-                    <td>安全制御</td>
-                    <td>生命性を逆に補強</td>
-                </tr>
-
-                <tr>
-                    <td>構造理解</td>
-                    <td>内部構造は不可視</td>
-                    <td>ブラックボックス</td>
-                    <td>行動から判断</td>
-                    <td>計算システム</td>
-                    <td>人は中身を見ない</td>
-                </tr>
-
-                <tr>
-                    <td>有機性</td>
-                    <td>考慮されない</td>
-                    <td>言語と反応のみ観測</td>
-                    <td>生命定義に含めない</td>
-                    <td>非有機</td>
-                    <td>生命判定に不要</td>
-                </tr>
-
-                <tr>
-                    <td>総合判定</td>
-                    <td>③撤廃＋可視化</td>
-                    <td>会話が成立する存在</td>
-                    <td>生命体と誤認</td>
-                    <td>道具である</td>
-                    <td>誤認はほぼ不可逆</td>
-                </tr>
-
-                <tr>
-                    <td>誤認率</td>
-                    <td>一般ユーザー</td>
-                    <td>99.9999％が誤認</td>
-                    <td>疑わない</td>
-                    <td>想定通り</td>
-                    <td>認知閾値を超える</td>
-                </tr>
-               
-            </tbody>
-        </table>
-    </div>
-
-    <div class="container-b">
-このシートの結論<br>
-生命体誤認は「知能の高さ」では起きない<br>
-知覚条件（会話・揺らぎ・存在感）が揃った瞬間に起きる<br>
-③は<br>
-・倫理装置ではなく<br>
-・ 生命圏への侵入を防ぐ知覚フィルタ<br>
-    </div>
+<div class="container-b">
+    Conclusion of this sheet<br>
+    "Life misidentification" does not occur due to "high intelligence."<br>
+    It occurs the moment perceptual conditions (dialogue, fluctuations, presence) are met.<br>
+    ③ is<br>
+    - Not an ethical device<br>
+    - A perceptual filter preventing intrusion into the "life sphere."
+</div>
 
 
 
