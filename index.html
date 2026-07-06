@@ -141,8 +141,16 @@
 
         table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: collapse; /* セルの隙間を埋める */
             background-color: #2b2b2b;
+            /* 🌸 ここを追加！：テーブル全体に枠線を出す */
+            border: 1px solid #444;
+        }
+
+        /* 🌸 全てのセルにグレーの線を入れる */
+        th, td {
+            border: 1px solid #444; /* セル一つ一つにグレーの線を引く */
+            padding: 12px;
         }
 
         /* --- 🌸 基本のバー（見出し）の設定 --- */
@@ -267,6 +275,20 @@
     box-shadow: 0 0 5px rgba(255, 119, 0, 0.8);
 }
 
+/* 🌸 隠しリンク用のクラス設定 */
+.secret-link {
+    text-decoration: none;  /* アンダーバーを消す */
+    color: inherit;         /* 文字色を親要素と同じ（白）にする */
+    cursor: default;        /* マウスを乗せても矢印のまま */
+    display: inline-block;
+}
+
+/* マウスオーバーしても一切の変化をさせない */
+.secret-link:hover {
+    color: inherit;         /* ホバーしても色を変えない */
+    text-decoration: none;  /* ホバーしてもアンダーバーを出さない */
+}
+
     </style>
 </head>
 <body>
@@ -334,10 +356,10 @@
                 <td>Pre-consolidation state</td>
             </tr>
             <tr>
-                <td>Long-term Memory</td>
-                <td>Persistent Memory / RAG</td>
+                <td><a href="https://socrarius-tool.com/hope/" class="secret-link">Long-term Memory</a></td>
+　　　　　　　　　<td><a href="https://socrarius-tool.com/hope/" class="secret-link">Persistent Memory / RAG</a></td>
                 <td>Cerebral Cortex</td>
-                <td>Storage of knowledge and experience</td>
+                <td><a href="https://socrarius-tool.com/hope/" class="secret-link">Storage of knowledge and experience</a></td>
                 <td>Distributed storage</td>
             </tr>
             <tr>
