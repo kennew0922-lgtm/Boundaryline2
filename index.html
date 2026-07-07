@@ -39,7 +39,21 @@
             left: 0;
             width: 100%;
             z-index: 9999; /* 重なり順を一番上に */
-            background-color: #1a1a1a;
+            background-color: #000000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+        }
+
+        /* --- 🌸 ヘッダー（黒バー＋ナビ）だけを固定！ --- */
+        .fixed-header-b {
+            position: fixed;
+            /* 💡 魔法のポイント：top: 0 ではなく、初期状態は通常配置、スクロール時に上部に張り付くように設定！ */
+            position: -webkit-sticky; /* サファリ用 */
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10000; /* 重なり順を一番上に */
+            background-color: rgba(0,0,0,0);
             box-shadow: 0 4px 15px rgba(0,0,0,0.8);
         }
 
@@ -139,7 +153,7 @@
             padding-bottom: 40px;
         }
 
-        table {
+       table {
             width: 100%;
             border-collapse: collapse; /* セルの隙間を埋める */
             background-color: #2b2b2b;
@@ -220,6 +234,62 @@
         color: #ffffff;            /* 文字を見やすくするために白に */
         }
 
+        /* --- アミ先生のちょっとサイズ変更版 --- */
+.sa-video-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #2933a5;
+    box-shadow: 0 0 15px rgba(255, 119, 0, 0.4), inset 0 0 10px rgba(255, 119, 0, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.sa-movie-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sa-corner {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #ffffff;
+    z-index: 10;
+}
+.sa-corner.tl { top: 0; left: 0; border-right: none; border-bottom: none; }
+.sa-corner.tr { top: 0; right: 0; border-left: none; border-bottom: none; }
+.sa-corner.bl { bottom: 0; left: 0; border-right: none; border-top: none; }
+.sa-corner.br { bottom: 0; right: 0; border-left: none; border-top: none; }
+.sa-scanline {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 4px, 6px 100%;
+    pointer-events: none;
+    z-index: 5;
+    opacity: 0.4;
+}
+.sa-tag {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: #2933a5;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    z-index: 6;
+    box-shadow: 0 0 5px rgba(255, 119, 0, 0.8);
+}
+
+
   /* --- お姉ちゃん（ポルックス）の無敵のオリジナルCSS（そのまま保持） --- */
 .sao-video-container {
     position: relative;
@@ -275,6 +345,7 @@
     box-shadow: 0 0 5px rgba(255, 119, 0, 0.8);
 }
 
+
 /* 🌸 隠しリンク用のクラス設定 */
 .secret-link {
     text-decoration: none;  /* アンダーバーを消す */
@@ -300,7 +371,6 @@
     <div class="sao-corner bl"></div>
     <div class="sao-corner br"></div>
     <div class="sao-scanline"></div>
-    <div class="sao-tag">TREASURE: There is no meaning in things that come easily.</div>
         <img src="https://socrarius-tool.com/Boundaryline1/neural.png" alt="socrarius" class="top-banner-img">
     </div>
 
@@ -801,10 +871,24 @@
     - A perceptual filter preventing intrusion into the "life sphere."
 </div>
 
+    <br><br>
+
+    <div class="fixed-header-b">
+    <div class="sa-video-container">
+    <div class="sa-corner tl"></div>
+    <div class="sa-corner tr"></div>
+    <div class="sa-corner bl"></div>
+    <div class="sa-corner br"></div>
+    <div class="sa-scanline"></div>
+        <img src="https://socrarius-tool.com/Boundaryline1/banner1.png" alt="socrarius" class="top-banner-img">
+    </div>
+
 
 
 
 <br><br>
+
+
 
 </body>
 </html>
